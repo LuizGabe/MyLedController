@@ -1,0 +1,26 @@
+{
+  "name": "testes",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "coffee-copy.js",
+  "scripts": {
+    "start": "node main.js",
+    "dev": "node --watch main.js",
+    "testes": "node teste.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.4.0",
+    "chalk": "^5.2.0",
+    "chokidar": "^3.5.3",
+    "events": "^3.3.0",
+    "fs": "^0.0.1-security",
+    "jsftpd": "^1.2.2",
+    "node-observer": "^0.4.4",
+    "openrgb-sdk": "^0.5.2",
+    "ps-list": "^8.1.1",
+    "ps-node": "^0.1.6"
+  }
+}
